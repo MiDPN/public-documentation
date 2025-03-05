@@ -1,2 +1,2 @@
 # MDPN Documentation
-This repository will house MDPN's public documentation for Member Instiutions.
+This repository will house MDPN's public documentation for Member Institutions.
