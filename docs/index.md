@@ -7,6 +7,7 @@ title: MDPN Documentation
 - [Useful Terms](./useful-terms)
 - [Workflow Diagram](../media/)
 - [Selection and Appraisal](./selection-and-appraisal)
+- [Configuring DART](./configuring-dart)
 - [Preparing for Content Ingest](./preparing-for-content-ingest)
 - [Transferring Content with DART](./transferring-content-with-dart)
 - [Troubleshooting](./troubleshooting)
