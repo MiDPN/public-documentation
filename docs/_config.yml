@@ -1,1 +1,10 @@
 theme: minima
+nav_pages:
+   - index.md
+   - configuring-dart.md
+   - preparing-for-content-ingest.md
+   - password-reset.md
+   - selection-and-appraisal.md
+   - transferring-content-with-dart.md
+   - troubleshooting.md
+   - useful-terms.md

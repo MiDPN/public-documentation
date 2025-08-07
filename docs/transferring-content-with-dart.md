@@ -15,7 +15,7 @@ In this section, we will go over the following:
 
 According to the BagIt standard created by the Library of Congress, a bag is a “a set of hierarchical file layout conventions for storage and transfer of arbitrary digital content” (Kunze et al., 2018, para. 1). Put more simply, a bag can be understood as a package for various folders of digital content. It is a standardized way of organizing the contents of your collection for preservation, so that all the component elements of a digital collection are stored and preserved alongside each other.
 
-The BagIt standard enables interoperability. In most cases, interoperability ensures that someone outside of a collection’s originating organization will have all the information necessary to understand and use a collection. In our case, interoperability is ensuring that future members of your organization can understand and use your preserved collections. For more details on the BagIt Standard you can visit https://datatracker.ietf.org/doc/html/rfc8493. For more on the creation of the BagIt Standard by the Library of Congress, enjoy this 10th anniversary blog post by Liz Madden, Digital Media Project Coordinator in the Office of the Chief Information Officer’s Platform Services Division.
+The BagIt standard enables interoperability. In most cases, interoperability ensures that someone outside of a collection’s originating organization will have all the information necessary to understand and use a collection. In our case, interoperability is ensuring that future members of your organization can understand and use your preserved collections. For more details on the BagIt Standard you can visit [https://datatracker.ietf.org/doc/html/rfc8493](https://datatracker.ietf.org/doc/html/rfc8493). For more on the creation of the BagIt Standard by the Library of Congress, enjoy this 10th anniversary blog post by Liz Madden, Digital Media Project Coordinator in the Office of the Chief Information Officer’s Platform Services Division.
 
 ### What’s in a Bag?
 
@@ -41,13 +41,13 @@ MDPN uses DART to generate many of the bag components as shown in Table 5 for yo
 Items in the /data folder come from your organization and the subsequent structure is up to your organization and any internal standards you may have. Once uploaded to DART, this structure remains and is the structure that your objects will keep in the MDPN LOCKSS repository. This structure is merely a suggestion, but we strongly recommend that you keep a similar structure. This structure allows you to keep track of necessary information to include and allows you to more easily find the information you need.
 
 For a more comprehensive resource on DART, visit the Digital Archivist’s Resource Tool (DART) specification page located under the "Additional Resources" section.</p>
-</p></span>
+</span>
 </div>
 
 ### Running a Job with DART
 To begin transferring a new digital collection to the MDPN, start by opening the DART application on your workstation. This should start by bringing you to the home screen, where you can select “Jobs” and then “New.”
 
-![Starting a New Job in DART](../images/New_Job.png)
+![Starting a New Job in DART](./assets/images/New_Job.png)
 
 #### A note on size:
 Neither DART nor LOCKSS have any prescribed size restrictions. However, members should take some considerations in mind when bagging their collections. 
@@ -60,7 +60,7 @@ As such, MDPN suggests limiting bags to around **100GB** in size, though bags ar
 ### Packaging
 This section is where you’ll define structural parameters for your bag.
 
-![The Packaging Section in DART](../images/Packaging.png)
+![The Packaging Section in DART](./assets/images/Packaging.png)
 
 **Package Format**: select “BagIt”
 
@@ -77,8 +77,8 @@ After completing all fields, select **Next >>** in the blue box at the bottom ri
 ### Bag Metadata
 This section is where you provide helpful technical and administrative metadata about your digital objects. There are four required fields, indicated below, but the MDPN encourages members to be as thorough as possible in completing these prompts. 
 
-![Adding Metadata to your Bag in DART](../images/Bag_Metadata.png)
-![Adding Metadata to your Bag in DART](../images/Bag_Metadata_2.png)
+![Adding Metadata to your Bag in DART](./assets/images/Bag_Metadata.png)
+![Adding Metadata to your Bag in DART](./assets/images/Bag_Metadata_2.png)
 
 **Bag-Count**: Two numbers separated by "of", in particular, "N of T", where T is the total number of bags in a group of bags and N is the ordinal number within the group.  If T is not known, specify it as "?" (question mark): for example, 1 of 2, 4 of 4, 3 of ?, 8 9of 145. This metadata element SHOULD NOT be repeated.  If this metadata element is present, it is RECOMMENDED to also include the Bag-Group-Identifier element.
 
@@ -120,5 +120,5 @@ After completing all fields, select “Next >>” in the blue box at the bottom 
 Take a moment to review the data listed. Make sure it is being uploaded to the correct location (MDPN Staging) using the correct Bagging Profile (MDPN) and your Package Name begins with your Organization’s Acronym. After reviewing the data, select “Run Job” in the green box on the bottom right of your screen.
 
 ### Additional Documentation: 
-DART: https://aptrust.github.io/dart-docs/ 
-LOCKSS 2.0: https://docs.lockss.org/projects/manual/en/latest/ 
+ - DART: [https://aptrust.github.io/dart-docs/](https://aptrust.github.io/dart-docs/)
+ - LOCKSS 2.0: [https://docs.lockss.org/projects/manual/en/latest/](https://docs.lockss.org/projects/manual/en/latest/) 
