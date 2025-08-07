@@ -8,7 +8,7 @@ title: MDPN Documentation
 - [Workflow Diagram](./assets/images/Content_Ingest_Workflow.png)
 - [Selection and Appraisal](./selection-and-appraisal)
 - [Configuring DART](./configuring-dart)
-- [Resetting your staging server credentials](./password-reset.md)
+- [Resetting DART Login](./password-reset.md)
 - [Preparing for Content Ingest](./preparing-for-content-ingest)
 - [Transferring Content with DART](./transferring-content-with-dart)
 - [Troubleshooting](./troubleshooting)

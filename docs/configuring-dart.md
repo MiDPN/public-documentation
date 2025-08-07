@@ -30,4 +30,4 @@ Once we receive your IP address, MDPN staff will add your IP to the allowed addr
 
 ![Updating your Login Credentials](./assets/images/Update_DART_Login.png)
 
-Click the blue "SAVE" button at the bottom of the screen when you're done. Because email is not a secure way to share passwords, you'll need to change your password again before you can use DART. The "Resetting Your DART Login Credentials" section of this documentation portal will walk you through that process.
+Click the blue "SAVE" button at the bottom of the screen when you're done. Because email is not a secure way to share passwords, you'll need to change your password again before you can use DART. The "Resetting DART Login" section of this documentation portal will walk you through that process.

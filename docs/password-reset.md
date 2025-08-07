@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Resetting your staging server credentials
+title: Resetting DART Login
 ---
 
-## Resetting your staging server credentials
+## Resetting DART Login
 Once provided with your login credentials to the MDPN staging server, you will need to change your password before you use DART for the first time.  Using a terminal/shell program (Command Prompt in Windows, Terminal in Mac, Shell in Linux), you will need to connect to the server via SSH using the credentials provided:
 1. **ssh USERNAME@staging.mipres.org**
 

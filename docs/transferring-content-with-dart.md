@@ -114,7 +114,7 @@ This section is where you’ll identify where you’d like to upload your conten
 
 Select “MDPN Staging”
 
-After completing all fields, select “Next >>” in the blue box at the bottom right of your screen.
+After completing all fields, select **Next >>** in the blue box at the bottom right of your screen.
 
 ### Review and Run
 Take a moment to review the data listed. Make sure it is being uploaded to the correct location (MDPN Staging) using the correct Bagging Profile (MDPN) and your Package Name begins with your Organization’s Acronym. After reviewing the data, select “Run Job” in the green box on the bottom right of your screen.
