@@ -3,12 +3,11 @@ layout: page
 title: Configuring DART
 ---
 
-## Downloading and Configuring DART (Digital Archivists Resource Tool)
-DART is a GUI (Graphical User Interface) tool, developed and maintained by AP Trust, for packaging digital files according to the Library of Congress's [BagIt Specification](https://datatracker.ietf.org/doc/html/rfc8493) and uploading them to remote repositories. This is the tool MDPN recommends for transferring files from your institution on to the MDPN Staging Server. 
+DART (Digital Archivists Resource Tool) is a GUI (Graphical User Interface) tool, developed and maintained by [AP Trust](https://aptrust.org), for packaging digital files according to the Library of Congress's [BagIt Specification](https://datatracker.ietf.org/doc/html/rfc8493) and uploading them to remote repositories. This is the tool MDPN recommends for transferring files from your institution on to the MDPN Staging Server. 
 
 To download the current version  of DART (DART 2), visit the DART Documentation Home at [https://aptrust.github.io/dart-docs/](https://aptrust.github.io/dart-docs/). DART 2 is available for Mac, Windows, and Linux users.
 
-Once you have download DART, you’ll need to configure it with MDPN settings. You’ll find a JSON file with the config settings in our MDPN Github at [https://github.com/MiDPN/MDPN-Config](https://github.com/MiDPN/MDPN-Config).
+Once you have download DART, you’ll need to configure it with MDPN settings. You’ll find a JSON file with the config settings in the MDPN Github at [https://github.com/MiDPN/MDPN-Config](https://github.com/MiDPN/MDPN-Config).
 
 Once you open DART, navigate to “Settings” in the top menu and choose “Import Settings.” 
 
@@ -30,4 +29,5 @@ Once we receive your IP address, MDPN staff will add your IP to the allowed addr
 
 ![Updating your Login Credentials](./assets/images/Update_DART_Login.png)
 
-Click the blue "SAVE" button at the bottom of the screen when you're done. Because email is not a secure way to share passwords, you'll need to change your password again before you can use DART. The "Resetting DART Login" section of this documentation portal will walk you through that process.
+
+Click the blue "SAVE" button at the bottom of the screen when you're done. Because email is not a secure way to share passwords, you'll need to change your password again before you can use DART. The [Resetting DART Login](https://midpn.github.io/public-documentation/password-reset.html) section of this documentation portal will walk you through that process.
