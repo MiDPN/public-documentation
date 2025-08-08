@@ -8,8 +8,8 @@ The goal of digital preservation is to maintain access to and usability of digit
 In this section, we will go over the following: 
 - File naming best practices
 - What Member Acronym are and why the MDPN uses them
-- Metadata recommendations/best practices
-- 
+- Descriptive metadata recommendations for preservation
+- What metadata formats and standards the MDPN accepts
 
 ## File Naming and Organization
 
@@ -18,7 +18,7 @@ digitized. If your organization does not already have file naming guidelines, ta
 consistently. 
 
 ### File Naming Guidance
-1.	Do not use spaces, because they are not recognized by some software. Instead use underscores (file_name), no separation (filename), or camel case (FileName).
+1.	Do not use spaces, because they are not recognized by the LOCKSS software. Instead use underscores (file_name), no separation (filename), or camel case (FileName).
 2.	Do not use special characters: ~ ! @ # $ % ^ & * ( ) ` ; < > ? , [ ] { } ‘ “. Including any special characters in your file name disrupts DART’s data packaging and will cause issues on the MDPN staging server which might mean your collection can’t be harvested into LOCKSS.
 3.	A good format for dates is YYYYMMDD (or YYMMDD). This makes sure all your files stay in chronological order.
 4.	Don’t make file names too long; longer names are more difficult to read in a directory system and can invite reading errors. Limit file names to 25 characters or less if possible.
@@ -67,13 +67,29 @@ Examples of file names:
 ### Descriptive Metadata
 [Descriptive metadata](https://dictionary.archivists.org/entry/descriptive-metadata.html) provides information such as creator, date, location, etc. about the items in your digital collection or about the collection as a whole. The MDPN encourages, but does not require organizations have item-level metadata to preserve as part of their digital collections. We understand that creating item-level metadata can be a time-consuming process, especially for small organizations or those that rely on volunteers. However, more information about the items in your collection promotes better usability and understandability to future users, which is the ultimate goal of digital preservation. You can also add descriptive metadata to your collection at a later date after it’s been preserved. For more on this process and how to document it in your file names, see “Versioning” in this technical guidance. 
 
-**MDPN is metadata standard and format agnostic.** The MDPN does not require that you follow a specific metadata standard, nor do we require you save your metadata in a particular file format. Below are some examples of descriptive metadata files and how they appear alongside the digital objects in your preservation package.
+**MDPN is metadata standard and format agnostic.** This means that the MDPN does not require you to follow a specific metadata standard, nor do we require you save your metadata in a particular file format. Below are some examples of descriptive metadata files and how they appear alongside the digital objects in your preservation package.
 
+![Metadata Folder in a Collection](./assets/images/Metadata_Example_1.png)
+![Metadata Folder Expanded](./assets/images/Metadata_Example_2.png)
+![Metadata in XML](./assets/images/Metadata_Example_3.png)
+![Metadata in CSV](./assets/images/Metadata_Example_4.png)
 
 
 Please note that MDPN **does not** generally assist with metadata creation or remediation, but we can point you to resources to help with this work. Reach out to the MDPN Coordinator for more information. 
 
+
+<div class="warning" style='background-color:#ddeffb; color:rgb(3, 47, 117); border-left: solidrgb(42, 11, 241) 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b> "Not Required" Does Not Mean "Not Important" </b></p>
+
+You will notice that certain information, like collection- and item-level metadata, are not required for transfer to MDPN. It is important to keep in mind that in the context of DART, **not required does not mean not important.** 
+
+For DART, not required simply means that the component will not impact the validity of your bag or DART seeing your bag as valid. However, digital preservation is concerned about future use and access of digital materials over time. A lack of descriptive metadata will not prevent DART from bagging your content, but it will impact how future users and stewards might understand your collections in the future. </p>
+</span>
+</div>
+
 ### Technical Metadata
 
-Technical metadata is information about your collection’s structure, including size, when and how it was packaged and by whom, and relevant fixity information. This metadata will be created by you using DART. See the “Bag Metadata” section under “Running a New Job in DART” for more details. 
+Technical metadata is information about your collection’s structure, including size, when and how it was packaged and by whom, and relevant fixity information. This metadata will be created by you using DART. See the “Bag Metadata” heading under [Transferring Content with DART](https://midpn.github.io/public-documentation/transferring-content-with-dart.html) in this doucmentation site for more details. 
 
