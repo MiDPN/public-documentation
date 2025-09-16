@@ -1,6 +1,6 @@
 theme: minima
 minima:
-  nav_pages:
+  header_pages:
     - index.md
     - configuring-dart.md
     - preparing-for-content-ingest.md
