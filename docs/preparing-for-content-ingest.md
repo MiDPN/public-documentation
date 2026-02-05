@@ -35,18 +35,20 @@ Acronyms are in the table below:
 | ------------- | ---------- |
 | Capital Area District Libraries  |	CADL |
 | Comstock Township Library  |	CTL |
+| Detroit Institute of Arts  |	DIA |
 | Eastern Michigan University  |	EMU |
 | Hillsdale College  |	HDL |
 | Kalamazoo College  |	KC |
 | Kalamazoo Valley Museum  |	KVM |
 | Michigan State University  |	MSU |
 | Northern Michigan University  |	NMU |
+| Sloan Museum of Discovery  |    SMOD |
 | Traverse Area District Library  |	TADL |
 | University of Michigan  |	UM |
 | Wayne State University  |	WSU |
 | Western Michigan University  |	WMU |
 
-File Naming Examples
+### File Naming Examples
 The three elements work together to locate a specific file by its institution, the parent collection, and its context within the original order of the collection materials:
 1. Member acronym
 2. Collection Name: This should be the title of the collection being ingested.
